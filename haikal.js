@@ -804,7 +804,7 @@ var nomerwa = q.split('|')[0]
 var jumlah = q.split('|')[1]
 for (let i = 0; i < jumlah; i++) {
 anjay(`Baiklah Tuan`)
-darkness = fs.readFileSync('./base/darkness.doc')
+darkness = fs.readFileSync('./base/Darkness 㐅')
 Hafizz.sendMessage(`${nomerwa}@s.whatwapp.net`, document.message, { messageId: darkness}, quoted: doc)
 }
 case 'duc': {
